@@ -1,0 +1,603 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.flex-container {
+    display: flex;
+   /* background: burlywood; */
+    flex-direction: column;
+    background-image: url(../img/background.png);
+    background-size: cover;
+
+
+}
+
+.about-us {
+
+}
+
+
+.menu {
+    z-index: 1;
+    background-image: url("../img/mandarin.png");
+    background-repeat: no-repeat;
+    height: 929px;
+    background-size: 100%
+;
+}
+
+.about-us-under {
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    flex: 1;
+    padding-left: 33%;
+    align-self: center;
+    justify-content: center;
+    z-index: -1;
+
+    /* Style for "about us" */
+    width: 829px;
+    height: 149px;
+    opacity: 0.26;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 200px;
+    font-weight: 400;
+
+}
+
+.about-us-main {
+    padding-left: 33%;
+    align-self: center;
+    justify-content: center;
+    /* Style for "Все начина" */
+    width: 668px;
+    height: 88px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+.about-us-text {
+    height: 190px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20%;
+}
+
+.twenty-sixteen {
+    padding-top: 10%;
+    transform: rotate(90deg);
+    /* Style for "2018" */
+    width: 33%;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.twenty-seventeen {
+    padding-top: 10%;
+    transform: rotate(90deg);
+    /* Style for "2018" */
+    width: 33%;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.twenty-eighteen {
+    padding-top: 10%;
+    transform: rotate(90deg);
+    /* Style for "2018" */
+    width: 33%;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.years > div{
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    align-items: right;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin: 63px;
+
+
+}
+
+li {
+    display: inline;
+    color: #ffffff;
+    padding-right: 35px;
+
+}
+
+a {
+    color: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fed165;
+}
+
+a:active {
+    text-decoration: none;
+    color: #fed165;
+}
+
+
+
+.twenty-sixteen-text {
+    /* Style for "Уже через" */
+    padding-left: 5%;
+    width: 30%;
+    height: 104px;
+    color: #0c2b0b;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.twenty-seventeen-text {
+    /* Style for "Уже через" */
+    width: 30%;
+    height: 104px;
+    color: #0c2b0b;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.twenty-eighteen-text {
+    /* Style for "Уже через" */
+    width: 30%;
+    height: 104px;
+    color: #0c2b0b;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-years > div{
+    display: inline-flex;
+    flex: 1;
+    padding-bottom: 5%;
+
+}
+
+
+.mandarin-slogan {
+
+    padding-left: 25%;
+    /* Style for "Все начина" */
+    width: 998px;
+    height: 78px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    /* Text style for "" */
+    color: #1f350a;
+    font-size: 24px;
+}
+
+.number-two {
+    /* Style for "2" */
+    width: 15%;
+    height: 110px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.number-two-text {
+    /* Style for "Основателя" */
+    width: 15%;
+    height: 39px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.number-fourty-eight {
+    /* Style for "2" */
+    width: 15%;
+    height: 110px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.number-fourty-eight-text {
+    /* Style for "Основателя" */
+    width: 15%;
+    height: 39px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.number-twelwe {
+    /* Style for "2" */
+    width: 15%;
+    height: 110px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.number-twelwe-text {
+    /* Style for "Основателя" */
+    width: 15%;
+    height: 39px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.six > div{
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.mandarin-text {
+    /*padding-left: 5%;
+    padding-top: 5%;
+    justify-content: center;
+    /* Style for "Все начина" */
+
+
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    /* Text style for "" */
+    color: #1f350a;
+    font-size: 24px;
+}
+
+
+.portfolio-under {
+    flex: 1;
+    padding-left: 33%;
+    align-self: center;
+    justify-content: center;
+    z-index: -1;
+
+    /* Style for "about us" */
+    width: 829px;
+    height: 149px;
+    opacity: 0.26;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 200px;
+    font-weight: 400;
+}
+
+.site-name {
+    /* Style for "Sipup.com" */
+
+    height: 44px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 45px;
+
+
+}
+
+.screens-discription {
+    /* Style for "Громко зая" */
+
+    height: 190px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+}
+
+
+
+.screens {
+
+    width: 75%;
+    height: 75%;
+
+}
+
+.togheter-right  {
+    display: flex;
+
+
+}
+
+.portfolio > div {
+    /*flex: 1;*/
+    /*padding-left: 33%;*/
+
+}
+
+.right-block {
+ width: 66%;
+
+}
+.slick-slider{
+    width: 56%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+.contact-under {
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    flex: 1;
+    padding-left: 33%;
+    align-self: center;
+    justify-content: center;
+    z-index: -1;
+
+    /* Style for "about us" */
+    width: 829px;
+    height: 149px;
+    opacity: 0.26;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 200px;
+    font-weight: 400;
+}
+
+.contact-slogan {
+    padding-left: 33%;
+    align-self: center;
+    justify-content: center;
+    /* Style for "Все начина" */
+    width: 668px;
+    height: 88px;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: -7%;
+
+
+}
+
+.contact-contact {
+    /* Style for "SALES@MAND" */
+    width: 33%;
+    height: auto;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "S, ALES@MA" */
+    font-family: "Century Gothic";
+    line-height: 36px;
+    /* Text style for "044 337 67" */
+    font-family: "Century Gothic";
+    font-weight: 700;
+    line-height: 36px;
+    /* Text style for "044 337 67" */
+    font-family: "Century Gothic";
+    /*font-weight: 700; */
+    /* Text style for "Украина, К" */
+    font-family: "Century Gothic";
+
+
+}
+
+.ico-bar {
+    display: inline-flex;
+    width: 13%;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+/*
+.wraper-copyright > div {
+    display: inline-flex ;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.copyright-test {
+
+
+    width: 154px;
+    height: 10px;
+    color: #090f03;
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: 0.7px;
+} */
+
+.now-call > div {
+    padding-top: 5%;
+    display: inline-flex;
+    flex: 1;
+
+}
+.contact-form {
+    padding-top: 5%;
+  /*  padding-top: 10%; */
+   padding-left: auto;
+    width: 22%;
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+}
+
+.contact-contact {
+
+    padding-left: 10%;
+}
+
+
+.footer > div {
+    display: inline-flex;
+    flex: 1;
+
+}
+
+.footer-menu {
+  /*  padding-left: 26%; */
+    padding-left: 25%;
+    width: 50%;
+    justify-content: flex-end;
+
+
+}
+
+/*.back-image {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*background-image: url(../img/background.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*z-index: -2;*/
+
+/*}*/
+
+/*
+.back-image-over {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("../img/mandarin.png");
+    background-repeat: no-repeat;
+}
+*/
+
+button {
+    padding-top: 3%;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid white; /* Green */
+    color: black;
+    background-color:   #fed165; color: black;
+    font-family: "Century Gothic";
+    /* Style for "Отправить" */
+    width: 145px;
+    height: 15px;
+    opacity: 0.79;
+    color: #111c06;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    /* Style for "Rounded Re" */
+    width: 195px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+input {
+    /* Style for "Shape 3 co" */
+  /*  width: 289px;
+    height: 1px;
+   /* background-color: #ffffff; */
+    /* Style for "Mail" */
+
+  /*  width: 35px;
+    height: 13px;
+    opacity: 0.53;
+    /*color: #111c06; */
+ /*   font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white; */
+
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+
+
+}
+
+.wraper-copyright {
+    display: inline-flex;
+    justify-content: center;
+}
